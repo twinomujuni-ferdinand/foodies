@@ -1,0 +1,14 @@
+Order Receipt
+Order ID: 11
+Name: ferdinand
+Phone: 0700337910
+Location: 
+Total: 235000.00 UGX
+Payment: Cash
+Status: Pending
+Date: 2026-01-02 13:06:59.957083+00:00
+Items:
+- tilapia x 1 = 200000.00 UGX
+- burger x 1 = 15000.00 UGX
+- chips and chicken x 1 = 10000.00 UGX
+- beans and posho local x 1 = 10000.00 UGX

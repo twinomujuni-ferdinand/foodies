@@ -1,0 +1,63 @@
+/* HomePage.css */
+
+.banner-image {
+  animation: zoomIn 10s ease-in-out infinite alternate;
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out both;
+}
+
+.fade-in-delay {
+  animation: fadeIn 1.5s ease-in-out both;
+}
+
+.banner-heading {
+  animation: zoomFadeIn 1.2s ease-in-out both;
+}
+
+.banner-subtext {
+  animation: slideUpFade 1.5s ease-in-out both;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,13 @@
+Order Receipt
+Order ID: 10
+Name: twinomuj
+Phone: 078924567
+Location: 
+Total: 425000.00 UGX
+Payment: Cash
+Status: Pending
+Date: 2025-10-04 14:12:42.190227+00:00
+Items:
+- tilapia x 2 = 400000.00 UGX
+- burger x 1 = 15000.00 UGX
+- chips and chicken x 1 = 10000.00 UGX

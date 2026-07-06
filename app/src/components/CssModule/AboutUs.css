@@ -1,0 +1,89 @@
+.about-us-wrapper {
+  background-color: #011400 ; /* Dark green */
+  color: #f5f5dc; /* Soft beige text */
+  min-height: 80vh;
+  animation: fadeInBg 1.5s ease;
+}
+
+
+@keyframes fadeInBg {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.card {
+  background: url('/greenclass2.jpg') center/cover, rgba(0, 0, 0, 0.7); /* Image + overlay */
+  border-radius: 14px;
+  color: #f5f5dc;
+  box-shadow: 0 4px 24px rgba(44,83,100,0.18);
+  border: 1px solid #ffd700;
+}
+
+.about-title {
+  color: #af9817; /* Gold heading */
+  text-align: center;
+  font-weight: bold;
+  animation: fadeInTitle 1.2s ease;
+}
+
+@keyframes fadeInTitle {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.team-img {
+  border: 4px solid #ffd700;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  animation: fadeInImg 1.2s ease;
+}
+
+@keyframes fadeInImg {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.col-md-4 {
+  animation: slideUpCard 1s ease;
+}
+
+@keyframes slideUpCard {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.about-title {
+  color: #af9817; /* Gold heading */
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*.team-img {
+  border: 4px solid #ffd700;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}*/
+
+.team-name {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.team-role {
+  font-style: italic;
+  color: #dddd25;
+}

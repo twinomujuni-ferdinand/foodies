@@ -1,0 +1,13 @@
+Order Receipt
+Order ID: 8
+Name: twine
+Phone: 0758498129
+Location: 
+Total: 225000.00 UGX
+Payment: Cash
+Status: Pending
+Date: 2025-07-23 18:26:18.342722+00:00
+Items:
+- tilapia x 1 = 200000.00 UGX
+- burger x 1 = 15000.00 UGX
+- chips and chicken x 1 = 10000.00 UGX
